@@ -23,10 +23,10 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()}.`,
+      copyright: `© ${new Date().getFullYear()} KYOCERA Document Solutions, Inc.`,
     },
   },
-  presets: [
+    presets: [
     [
       '@docusaurus/preset-classic',
       {
