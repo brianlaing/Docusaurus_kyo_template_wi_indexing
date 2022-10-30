@@ -20,6 +20,8 @@
   --ifm-code-font-size: 95%;
 }
 
+
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -36,9 +38,8 @@ table {
     margin-bottom: 0px;
 }
 
-.ph.cmd {
-  font-family: revert;
-  background-color: unset;
+.uicontrol {
+    font-weight:bold;
 }
 
 .pre {
@@ -54,17 +55,7 @@ table {
   font-family: monospace;
   white-space: pre-wrap;
 }
-
-.ph:not(.b):not(.i):not(.u) {
-    display: inline;
-    background-color: var(--ifm-pre-background);
-    border-radius: var(--ifm-pre-border-radius);
-    color: var(--ifm-pre-color);
-    font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);
-    word-wrap: normal;
-    font-family: monospace;
-    white-space: pre-wrap;
-}
+/*Removed .ph section */
 
 .markdown {
     --ifm-h1-vertical-rhythm-top: 0; 
