@@ -11,9 +11,7 @@
     "serve": "docusaurus serve"
   },
   "dependencies": {
-    <!-- Add this code -->
-	   "@cmfcmf/docusaurus-search-local": "latest",
-	  <!-- End of add this code -->  
+    "@cmfcmf/docusaurus-search-local": "latest",
     "@docusaurus/core": "latest",
     "@docusaurus/preset-classic": "latest",
     "@mdx-js/react": "^1.6.21",
