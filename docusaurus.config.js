@@ -43,14 +43,27 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    // To enable the local search functionality, uncomment the following code:
-    [require.resolve('@cmfcmf/docusaurus-search-local'), {
-    indexDocs: true,
-         docsRouteBasePath: '/',
-         indexDocSidebarParentCategories: 3,
-         indexPages: false,
-         language: ["en"],
-     }]
-  ],
+  "plugins": [
+   //  [require.resolve('@cmfcmf/docusaurus-search-local'), {
+   // indexDocs: true,
+   //  docsRouteBasePath: '/',
+   //  indexDocSidebarParentCategories: 3,
+   //  indexPages: false,
+  // language: "en",
+ //   }]
+],
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en",
+    //  "de-de",
+     // "es-es",
+    //  "fr-fr",
+     // "it-it",
+     // "ja-jp",
+     // "tr-tr",
+    //  "zh-tw",
+    ],
+    "localeConfigs": {}
+  }
 };
