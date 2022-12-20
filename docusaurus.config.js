@@ -44,23 +44,23 @@ module.exports = {
     ],
   ],
   "plugins": [
-   //  [require.resolve('@cmfcmf/docusaurus-search-local'), {
-   // indexDocs: true,
-   //  docsRouteBasePath: '/',
-   //  indexDocSidebarParentCategories: 3,
-   //  indexPages: false,
-  // language: "en",
- //   }]
+   [require.resolve('@cmfcmf/docusaurus-search-local'), {
+   indexDocs: true,
+   docsRouteBasePath: '/',
+   indexDocSidebarParentCategories: 3,
+   indexPages: false,
+   language: ["en", "de", "ja"],
+ }]
 ],
   "i18n": {
     "defaultLocale": "en",
     "locales": [
       "en",
-    //  "de-de",
+    "de-de",
      // "es-es",
     //  "fr-fr",
      // "it-it",
-     // "ja-jp",
+     "ja-jp"
      // "tr-tr",
     //  "zh-tw",
     ],
